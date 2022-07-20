@@ -1,17 +1,35 @@
-import React from 'react'
-import HeroBanner from '../Components/HeroBanner'
-import ZmsFooter from '../Components/ZmsFooter'
+import React from "react";
+import HeroBanner from "../Components/HeroBanner";
+import ZmsFooter from "../Components/ZmsFooter";
+import { Flex, Image } from "@chakra-ui/react";
+import Image1 from "../Assets/ImgImg.png";
+import ContactForm from "../Components/ContactForm";
+import RecordComponent from "../Components/RecordComponent";
+import Partner from "../Components/Partner";
 
 const Zms = () => {
   return (
     <div>
-        <HeroBanner/>
-        <ZmsFooter/>
+      <HeroBanner />
+      <Partner />
 
-
+      <Flex
+        width={{ base: "90%", lg: "80%" }}
+        height="500px"
+        margin="auto"
+        marginTop='150px'
       
-    </div>
-  )
-}
+      >
+        <Image width="100%" height="100%" src={Image1} alt="demo" />
+      </Flex>
 
-export default Zms
+      <RecordComponent />
+
+      <ContactForm  />
+
+      <ZmsFooter />
+    </div>
+  );
+};
+
+export default Zms;

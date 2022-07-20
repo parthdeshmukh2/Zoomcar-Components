@@ -60,7 +60,7 @@ const RecordComponent = () => {
         </Text>
 
         <Grid
-          width={{ base: "90%", lg: "80%" }}
+          width={{ base: "75%", lg: "60%" }}
           templateColumns={{
             base: "repeat(1, 1fr)",
             md: "repeat(2, 1fr)",

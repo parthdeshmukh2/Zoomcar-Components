@@ -6,6 +6,7 @@ import Image1 from "../Assets/ImgImg.png";
 import ContactForm from "../Components/ContactForm";
 import RecordComponent from "../Components/RecordComponent";
 import Partner from "../Components/Partner";
+import ProductOffering from "../Components/ProductOffering";
 
 
 
@@ -13,6 +14,7 @@ const Zms = () => {
   return (
     <div>
       <HeroBanner />
+      <ProductOffering/>
       <Partner />
 
       <Flex
